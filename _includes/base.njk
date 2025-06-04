@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="{{ description or '' }}" />
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+
+  <body>
+    <main class="content">
+      <div class="centered">
+        <div>
+          {{ content | safe }}
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

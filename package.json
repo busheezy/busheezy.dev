@@ -1,0 +1,14 @@
+{
+  "name": "busheezy.dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm dlx @11ty/eleventy",
+    "dev": "pnpm dlx @11ty/eleventy --serve"
+  },
+  "keywords": [],
+  "author": "BuSheeZy <BuSheeZy@gmail.com>",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.0"
+}
